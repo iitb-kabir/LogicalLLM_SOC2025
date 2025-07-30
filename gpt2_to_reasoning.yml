@@ -1,0 +1,15 @@
+name: grpo-finetune
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - transformers
+      - peft
+      - trl
+      - bitsandbytes
+      - accelerate
+      - datasets
+      - torch
