@@ -1,5 +1,5 @@
 # PokerGPT README.md generator
-# = PokerGPT: End-to-End Poker Solver Using LLMs
+# PokerGPT: End-to-End Poker Solver Using LLMs
 
 This project builds an end-to-end poker-playing agent using Large Language Models (LLMs) and Reinforcement Learning techniques. Inspired by [PokerGPT](https://arxiv.org/abs/2403.11878), it focuses on multi-player Texas Hold’em, using GRPO (Generalized Reward Policy Optimization) or similar RL fine-tuning approaches to align the model’s play style with strategic objectives.
 
@@ -70,17 +70,15 @@ plt.savefig("graphs/reward_curve.png")
 - [ ] Improve RLHF reward modeling for bluffs and folds.
 - [ ] Add curriculum learning for different poker variants.
 
-## 📜 License
 
-MIT License.
 
 ## ✍️ Acknowledgements
 
-- [PokerGPT](https://arxiv.org/abs/2401.06781#:~:text=In%20this%20work%2C%20we%20introduce,large%20language%20model%20(LLM))
-- [LoRA](https://arxiv.org/abs/2106.09685)
-- [QLoRA](https://arxiv.org/abs/2305.14314)
-- [DeepSeekMath](https://arxiv.org/abs/2402.03300)
-- [PPO Algorithms](https://arxiv.org/abs/1707.06347)
+- [PokerGPT PAPER](https://arxiv.org/abs/2401.06781#:~:text=In%20this%20work%2C%20we%20introduce,large%20language%20model%20(LLM))
+- [LoRA PAPER](https://arxiv.org/abs/2106.09685)
+- [QLoRA PAPER](https://arxiv.org/abs/2305.14314)
+- [DeepSeekMath PAPER](https://arxiv.org/abs/2402.03300)
+- [PPO Algorithms PAPER](https://arxiv.org/abs/1707.06347)
 - HuggingFace Transformers & TRL Libraries
 - Unsloth Team for efficient fine-tuning framework
 """
