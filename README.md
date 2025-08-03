@@ -1,23 +1,22 @@
 # PokerGPT README.md generator
-
-readme_content = """
-# 🃏 PokerGPT: End-to-End Poker Solver Using LLMs
+=
+# = PokerGPT: End-to-End Poker Solver Using LLMs
 
 This project builds an end-to-end poker-playing agent using Large Language Models (LLMs) and Reinforcement Learning techniques. Inspired by [PokerGPT](https://arxiv.org/abs/2403.11878), it focuses on multi-player Texas Hold’em, using GRPO (Generalized Reward Policy Optimization) or similar RL fine-tuning approaches to align the model’s play style with strategic objectives.
 
 ## 📁 Repository Structure
 
 ```
-Poker_gpt.ipynb       # Main training and evaluation notebook
-README.md             # Project documentation (this file)
+Poker_gpt(1).ipynb       # Main training and evaluation notebook
+README.md             
 ```
 
 ## 🚀 Features
 
-- ✅ **Environment**: Simulated poker environment with betting, folding, and hand resolution.
-- 🧠 **LLM-based Agent**: Uses pretrained instruction-tuned LLMs (e.g., Qwen2.5 or LLaMA) as poker-playing agents.
-- 🏆 **GRPO Training**: Fine-tunes the LLM using GRPO (Generalized Reward Policy Optimization).
-- 📊 **Evaluation**: Plots rewards, KL-divergence, and training progress.
+-  **Environment**: Simulated poker environment with betting, folding, and hand resolution.
+-  **LLM-based Agent**: Uses pretrained instruction-tuned LLMs (e.g., Qwen2.5 or LLaMA) as poker-playing agents.
+-  **GRPO Training**: Fine-tunes the LLM using GRPO (Generalized Reward Policy Optimization).
+-  **Evaluation**: Plots rewards, KL-divergence, and training progress.
 
 ## 🛠️ Setup
 
