@@ -1,5 +1,4 @@
 # PokerGPT README.md generator
-=
 # = PokerGPT: End-to-End Poker Solver Using LLMs
 
 This project builds an end-to-end poker-playing agent using Large Language Models (LLMs) and Reinforcement Learning techniques. Inspired by [PokerGPT](https://arxiv.org/abs/2403.11878), it focuses on multi-player Texas Hold’em, using GRPO (Generalized Reward Policy Optimization) or similar RL fine-tuning approaches to align the model’s play style with strategic objectives.
@@ -14,7 +13,7 @@ README.md
 ## 🚀 Features
 
 -  **Environment**: Simulated poker environment with betting, folding, and hand resolution.
--  **LLM-based Agent**: Uses pretrained instruction-tuned LLMs (e.g., Qwen2.5 or LLaMA) as poker-playing agents.
+-  **LLM-based Agent**: Uses pretrained instruction-tuned LLMs (gemma3-(2b)) as poker-playing agents.
 -  **GRPO Training**: Fine-tunes the LLM using GRPO (Generalized Reward Policy Optimization).
 -  **Evaluation**: Plots rewards, KL-divergence, and training progress.
 
@@ -32,8 +31,7 @@ pip install unsloth trl datasets peft transformers accelerate einops
 
 Download or use a compatible HuggingFace model such as:
 
-- `Qwen/Qwen2.5-3B-Instruct`
-- `meta-llama/Meta-Llama-3-8B-Instruct`
+- `gemma3-(2b)`
 
 ### 3. Dataset
 
@@ -78,13 +76,12 @@ MIT License.
 
 ## ✍️ Acknowledgements
 
-- [PokerGPT Paper (2024)](https://arxiv.org/abs/2403.11878)
+- [PokerGPT](https://arxiv.org/abs/2401.06781#:~:text=In%20this%20work%2C%20we%20introduce,large%20language%20model%20(LLM))
+- [LoRA](https://arxiv.org/abs/2106.09685)
+- [QLoRA](https://arxiv.org/abs/2305.14314)
+- [DeepSeekMath](https://arxiv.org/abs/2402.03300)
+- [PPO Algorithms](https://arxiv.org/abs/1707.06347)
 - HuggingFace Transformers & TRL Libraries
 - Unsloth Team for efficient fine-tuning framework
 """
 
-# Write to README.md file
-with open("README.md", "w") as f:
-    f.write(readme_content)
-
-print("✅ README.md created successfully.")
